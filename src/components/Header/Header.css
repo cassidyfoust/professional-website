@@ -1,0 +1,54 @@
+#about {
+    background-image: URL('./about-unfilled.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 200px;
+    border: none;
+}
+#about:hover {
+    background-image: URL('./about-filled.png');
+}
+
+#portfolio {
+    background-image: URL('./portfolio-unfilled.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 300px;
+    border: none;
+   margin-left: 10px;
+}
+
+#portfolio:hover {
+    background-image: URL('./portfolio-filled.png');
+}
+
+#contact {
+    background-image: URL('./contact-unfilled.png');
+    background-size: 100%;
+        background-repeat: no-repeat;
+    height: 50px;
+    width: 250px;
+    border: none;
+}
+
+#contact:hover {
+    background-image: URL('./contact-filled.png');
+}
+
+.logo {
+    height: 120px;
+    padding-left: 10%;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.header-wrapper {
+    display: flex;
+    height: 20%;
+    padding-left: 30%;
+    padding-top: 2%;
+}
