@@ -1,0 +1,12 @@
+#submit-email {
+    background-image: URL('./submit-btn.png');
+    background-size: 100%;
+        background-repeat: no-repeat;
+    height: 50px;
+    width: 250px;
+    border: none;
+}
+
+#submit-email:hover {
+    background-image: URL('./submit-btn-filled.png');
+}
