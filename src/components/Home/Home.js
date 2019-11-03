@@ -14,7 +14,9 @@ class Home extends Component {
             <div className="home-page">
               <img src={ProfPic} className="prof-pic"></img>
               <div>
-                <img src={Text} className="text-img"></img>
+                <div className="text-img-wrapper">
+                  <img src={Text} className="text-img"></img>
+                </div>
                 <div className="home-text">
                   I'm a former publishing professional turned full stack
                   software developer. With a background in marketing and graphic
@@ -35,6 +37,11 @@ class Home extends Component {
                     <img src={Carat} width="30px"></img>React JS
                     <br></br>
                     <img src={Carat} width="30px"></img>Node.js
+                  </div>
+                  <div className="skills-column">
+                    <img src={Carat} width="30px"></img>Adobe Photoshop
+                    <br></br>
+                    <img src={Carat} width="30px"></img>Adobe InDesign
                     <br></br>
                     <img src={Carat} width="30px"></img>Redux
                   </div>
