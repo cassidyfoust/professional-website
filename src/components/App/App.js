@@ -5,6 +5,7 @@ import Home from '../Home/Home.js';
 import About from '../About/About.js';
 import Portfolio from '../Portfolio/Portfolio.js';
 import Contact from '../Contact/Contact.js';
+import Footer from '../Footer/Footer.js';
 import {
   HashRouter as Router,
   Route
@@ -35,6 +36,7 @@ function App() {
           path="/contact"
           component={Contact}
         />
+    <Footer/>
     </div>
     </Router>
   );

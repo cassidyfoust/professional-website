@@ -1,11 +1,11 @@
-.about-page {
+.home-page {
     display: flex;
     flex-direction: row;
     margin-top: 5%;
     margin-left: 12%;
 }
 
-.about-text {
+.home-text {
     /* display: flex;
     flex-direction: column;
     justify-content: flex-start; */
