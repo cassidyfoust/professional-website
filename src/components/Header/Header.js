@@ -14,7 +14,6 @@ class Header extends Component {
             <img src={Logo} className="logo"></img>
                     </Link>
             <div className="header-wrapper">
-                <Link id="about" to="/About"></Link>
                 <Link id="portfolio" to="/Portfolio"></Link>
                 <Link id="contact" to="/Contact"></Link>
             </div>

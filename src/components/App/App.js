@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Header from '../Header/Header.js';
 import Home from '../Home/Home.js';
-import About from '../About/About.js';
 import Portfolio from '../Portfolio/Portfolio.js';
 import Contact from '../Contact/Contact.js';
 import Footer from '../Footer/Footer.js';
@@ -21,11 +20,6 @@ function App() {
       path="/"
       component={Home}
     />
-        <Route
-          exact
-          path="/about"
-          component={About}
-        />
         <Route
           exact
           path="/portfolio"

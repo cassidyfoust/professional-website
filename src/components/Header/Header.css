@@ -1,21 +1,8 @@
-#about {
-    background-image: URL('./about-unfilled.png');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 50px;
-    width: 200px;
-    border: none;
-}
-#about:hover {
-    background-image: URL('./about-filled.png');
-}
-
 #portfolio {
     background-image: URL('./portfolio-unfilled.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 50px;
-    width: 300px;
+    width: 400px;
     border: none;
    margin-left: 10px;
 }
@@ -27,9 +14,8 @@
 #contact {
     background-image: URL('./contact-unfilled.png');
     background-size: 100%;
-        background-repeat: no-repeat;
-    height: 50px;
-    width: 250px;
+        background-repeat: no-repeat; 
+        width: 83%;
     border: none;
 }
 
@@ -48,7 +34,6 @@
 
 .header-wrapper {
     display: flex;
-    height: 20%;
-    padding-left: 30%;
+    padding-left: 57%;
     padding-top: 2%;
 }
