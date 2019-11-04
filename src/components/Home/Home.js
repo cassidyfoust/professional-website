@@ -18,7 +18,7 @@ class Home extends Component {
                   <img src={Text} className="text-img"></img>
                 </div>
                 <div className="home-text">
-                  I'm a former publishing professional turned front end web developer. =
+                  I'm a former publishing professional turned front end web developer.
                   With a background in marketing and graphic
                   design, my passion is merging elegant code with elegant
                   design. I graduated from Macalester
