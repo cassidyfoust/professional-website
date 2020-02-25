@@ -37,6 +37,8 @@ class Home extends Component {
                     <img src={Carat} width="30px"></img>React JS
                     <br></br>
                     <img src={Carat} width="30px"></img>Node.js
+                    <br></br>
+                    <img src={Carat} width="30px"></img>PHP (Symfony 4)
                   </div>
                   <div className="skills-column">
                     <img src={Carat} width="30px"></img>Adobe Photoshop
@@ -44,6 +46,8 @@ class Home extends Component {
                     <img src={Carat} width="30px"></img>Adobe InDesign
                     <br></br>
                     <img src={Carat} width="30px"></img>Redux
+                    <br></br>
+                    <img src={Carat} width="30px"></img>AngularJS
                   </div>
                   <div className="skills-column">
                     <img src={Carat} width="30px"></img>Ruby
